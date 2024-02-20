@@ -1,0 +1,54 @@
+#contohElemen {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#contohElemen p {
+    color: #333;
+    font-size: 16px;
+    margin: 0;
+}
+
+/* style teks untuk memberi jarak atas dan bawah teks*/
+.jarak-antarteks {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+/*  */
+.jarak-kiri {
+    margin-left: 25px;
+    margin-right: 10px;
+}
+
+/* setting ukuran dari photo  */
+.custom-image {
+    max-width: 100%;
+    width: 2000px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+/* styling CSS untuk button, menempatkan tombol menggunakan margin */
+.button-custom {
+    border: none;
+
+    /* Hilangkan batas tombol jika tidak diinginkan */
+    border-radius: 5px;
+    /* Tambahkan sudut bulat jika diinginkan */
+    margin-top: -450px;
+}
+
+/* .image-corner {
+        border-radius: 25px;
+        border: 2px solid #73AD21;
+        padding: 20px;
+        width: 200px;
+        height: 150px;
+      } */
+.background {
+    background-color: blanchedalmond;
+    padding: 20px;
+}
