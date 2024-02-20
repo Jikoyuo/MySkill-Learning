@@ -15,4 +15,10 @@
  - VueJS
  - TailwindCSS
 
-Project 
+Project Website Cupang (anda bisa lihat di repository yang saya bintangi) adalah proyek utama saya yang akan saya kembangkan menggunakan semua hal yang saya pelajari.
+*link repository proyek utama: https://github.com/Jikoyuo/WebsiteCupang
+
+setelah frontend saya kuasai, saya akan coba cicil mempelajari backend beserta frameworknya dan melanjutkan pengembangan website cupang yang nantinya saya akan buat satu website toko ikan hias, dimana isi nya ada penjelasan tiap tiap ikan hias
+harga ikan hias dan stok dan data ikan hias yang dijual nanti (simulasi saja).
+
+roadmap pengembangan bisa anda lihat pada README.md di repository WebsiteCupang !
