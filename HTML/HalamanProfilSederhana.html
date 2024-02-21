@@ -4,59 +4,94 @@
 <body>
     <!-- IDENTITAS DIRI -->
 
+    <!-- header -->
     <header>
         <h1>Chornael Damar Kesuma</h1>
         <!-- IMAGE UNTUK FOTO PROFIL SAYA ! <img /> -->
         <p>Chornael Damar Kesuma lahir pada 04 November 2004.
-             <br> Portfolio crypto saat ini
+            <br> Portfolio crypto saat ini
             memegang $ALT, $ATOM, $BEAMX dan masih menunggu $SUPRA listing di market.
         </p>
     </header>
 
     <main>
         <section>
-        <h2>Minat Belajar Saat Ini</h2>
-        <!-- Unorder List (ul) berfungsi untuk membuat list yang tidak ter urut -->
-        <ul>
-            <li>Belajar Crypto</li>
-            <li>Belajar Analisa Teknikal dan Fundamental Crypto</li>
-            <li>Belajar Frontend dan Web Dev</li>
-            <li>Belajar Blockchain dan Web3</li>
-        </ul>
+            <h2>Minat Belajar Saat Ini</h2>
+            <!-- Unorder List (ul) berfungsi untuk membuat list yang tidak ter urut -->
+            <ul>
+                <li>Belajar Crypto</li>
+                <li>Belajar Analisa Teknikal dan Fundamental Crypto</li>
+                <li>Belajar Frontend dan Web Dev</li>
+                <li>Belajar Blockchain dan Web3</li>
+            </ul>
 
-    </section>
+        </section>
         <!-- BAGIAN PEMAPARAN LIST CRYPTO PADA PORTFOLIO PRIBADI -->
 
         <section>
-        <h2>Crypto Yang Ada di Portfolio Saat Ini</h2>
-        <ul>
-            <li>$BEAMX</li>
-            <li>$ALT</li>
-            <li>$ATOM</li>
-        </ul>
-    </section>
+
+            <p>CONTOH MENGGUNAKAN TABLE</p>
+            <!-- membuat tabel sekaligus mempraktikkan spanning table. spanning table merupakan 
+            'merge cell' jika kita menggunakan excell, simpelnya spanning cell adalah teknik untuk menggabungkan beebrapa cell tabel menajdi 1  -->
+            <table border="1" cellpadding="" bgcolor="wheat">
+                <tr>
+                    <!-- <th> memiliki styling bawaan bold, jadi bisa digunakan sebagai header tabel karena tulisannya tebal di bold -->
+                    <th>Crypto</th>
+                    <th>Link Tokenomics</th>
+                    <!-- contoh penggunaan spanning table -->
+                    <th rowspan="4">PORTFOLIO</th>
+                </tr>
+                <tr>
+                    <!-- <td> digunakan untuk membuat cell data dalam tabel. isinya adalah data tabel nya  -->
+                    <td>$BEAMX</td>
+                    <td><a href="https://beam.mw/docs/ecosystem/overview/beamx-tokenomics" target="_blank">Tokenomics
+                            $BEAMX</a></td>
+                </tr>
+                <tr>
+                    <td>$ALT</td>
+                    <td><a href="https://www.coincarp.com/currencies/altlayer/project-info/">Tokenomics $ALT</a></td>
+                </tr>
+                <tr>
+                    <td>$ATOM</td>
+                    <td><a
+                            href="https://forum.cosmos.network/t/atom-tokenomics-currency-types-modeling-in-markets/11702">Tokenomics
+                            $ATOM</td>
+                </tr>
+                <caption>TABEL CRYPTO PADA PORTFOLIO SAYA</caption>
+            </table>
+
+            <p>TANPA TABLE</p>
+
+            <h2>Crypto Yang Ada di Portfolio Saat Ini</h2>
+            <ul>
+                <li>$BEAMX</li>
+                <li>$ALT</li>
+                <li>$ATOM</li>
+            </ul>
+        </section>
 
         <!-- pembuatan link yang ketika dipencet user akan menuju situs/laman web lain -->
         <!-- perbedaan menggunakan anchor dengan link link lain, ketika kursor kita arahkan ke link anchor maka
     akan menampilkan link yang dituju (kecil sekali) disebelah kiri bawah -->
-    <section>
-        <h3>Tokenomics Crypto Pada Portfolio Saya</h3>
-        <ul>
-            <li>
-                <a href="https://beam.mw/docs/ecosystem/overview/beamx-tokenomics" target="_blank">Tokenomics $BEAMX</a>
-            </li>
-            <!-- penggunaan 'target= "_blank"' adalah agar main web yang sedang dibuka tidak tertutup
+        <section>
+            <h3>Tokenomics Crypto Pada Portfolio Saya</h3>
+            <ul>
+                <li>
+                    <a href="https://beam.mw/docs/ecosystem/overview/beamx-tokenomics" target="_blank">Tokenomics
+                        $BEAMX</a>
+                </li>
+                <!-- penggunaan 'target= "_blank"' adalah agar main web yang sedang dibuka tidak tertutup
         mudahnya bisa dibilang 'membuka tab baru' dan ini akan sangat memudahkan user -->
-            <li>
-                <a href="https://www.coincarp.com/currencies/altlayer/project-info/">Tokenomics $ALT</a>
-            </li>
-            <li>
-                <a href="https://forum.cosmos.network/t/atom-tokenomics-currency-types-modeling-in-markets/11702">Tokenomics
-                    $ATOM</a>
-            </li>
-        </ul>
+                <li>
+                    <a href="https://www.coincarp.com/currencies/altlayer/project-info/">Tokenomics $ALT</a>
+                </li>
+                <li>
+                    <a href="https://forum.cosmos.network/t/atom-tokenomics-currency-types-modeling-in-markets/11702">Tokenomics
+                        $ATOM</a>
+                </li>
+            </ul>
 
-    </section>
+        </section>
         <!-- digunakan untuk mengelompokkan konten multimedia dengan caption atau deskripsi terkait. Ini sering digunakan untuk menyertakan gambar, ilustrasi, grafik, atau media lainnya 
     bersama dengan keterangan yang menjelaskan atau memberikan konteks terhadap elemen multimedia tersebut. -->
         <figure>
@@ -91,8 +126,8 @@
 
         <!-- BAGIAN PENJELASAN BITCOIN HALVING 2024 -->
 
-            <article>
-        <pre>
+        <article>
+            <pre>
         <!-- <strong> adalah important text, agar user langsung melihat teks pentingnya
             karena sudah di bold -->
 
@@ -109,29 +144,31 @@
     akan menyebabkan harga dari barang itu sendiri meningkat.
     </pre>
 
-        <!-- BAGIAN MENGUTIP SALAH SATU TOKOH CRYPTO -->
+            <!-- BAGIAN MENGUTIP SALAH SATU TOKOH CRYPTO -->
 
-        <p>
-            Roger Ver adalah seorang wirausahawan dan investor Bitcoin yang dikenal sebagai salah satu pendukung awal
-            dan
-            pribadi terkemuka dari mata uang kripto Bitcoin.
-            Ia sering disebut sebagai "Bitcoin Jesus" karena peran besar dalam mempromosikan dan mendukung adopsi
-            Bitcoin
-            pada tahap awal perkembangannya.
-        </p>
-        <p>
-            Roger Ver mengatakan:
-        </p>
-        <!-- Blockquote (Long Quotations) berfungsi sebagai kutipan dengan adanya identasi -->
-        <blockquote>
-            "Bitcoin adalah bentuk uang baru yang revolusioner,
-            mungkin lebih penting daripada internet sendiri." - Roger Ver
-        </blockquote>
-    </article>
+            <p>
+                Roger Ver adalah seorang wirausahawan dan investor Bitcoin yang dikenal sebagai salah satu pendukung
+                awal
+                dan
+                pribadi terkemuka dari mata uang kripto Bitcoin.
+                Ia sering disebut sebagai "Bitcoin Jesus" karena peran besar dalam mempromosikan dan mendukung adopsi
+                Bitcoin
+                pada tahap awal perkembangannya.
+            </p>
+            <p>
+                Roger Ver mengatakan:
+            </p>
+            <!-- Blockquote (Long Quotations) berfungsi sebagai kutipan dengan adanya identasi -->
+            <blockquote>
+                "Bitcoin adalah bentuk uang baru yang revolusioner,
+                mungkin lebih penting daripada internet sendiri." - Roger Ver
+            </blockquote>
+        </article>
 </body>
 
 </main>
 <br>
+<!-- footer -->
 <footer>&copy; 2024, Chornael Damar Kesuma
 </footer>
 
